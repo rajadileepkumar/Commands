@@ -1,0 +1,91 @@
+permission
+sudo chmod -R 777 /var/www
+
+
+restart apache server
+
+sudo /etc/init.d/apache2 restart
+
+
+rewrite mode
+sudo a2enmod rewrite
+
+
+update ubuntu
+sudo apt-get update
+
+
+mysql-workbench installation
+sudo apt-get install mysql-workbench
+
+
+lamp installation
+http://howtoubuntu.org/how-to-install-lamp-on-ubuntu
+
+
+larvel installation
+
+bootstrap
+http://getbootstrap.com/css/
+
+
+
+install sticky
+
+sudo add-apt-repository ppa:umang/indicator-stickynotes
+
+sudo apt-get update
+
+sudo apt-get install indicator-stickynotes
+
+
+
+install rar
+
+sudo software-properties-gtk
+sudo apt-get update
+sudo apt-get install rar
+
+
+change permisssion for superuser
+sudo chmod -R 0700 /var/lib/sudo
+
+
+larvel run
+php artisan serve
+
+
+MYSQL dump
+mysqldump -u [username] -p [database name] > [database name].sql
+
+
+
+google chrome uninstall
+sudo apt-get remove google-chrome-stable
+
+
+wordpress install
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-14-04
+
+mysql backup
+https://www.digitalocean.com/community/tutorials/how-to-backup-mysql-databases-on-an-ubuntu-vps
+
+
+ubuntu commands
+https://linuxconfig.org/linux-commands
+
+
+Unable to install plugins on localhost
+define('FS_METHOD', 'direct');
+
+install github
+step 1:sudo apt-get install git
+step 2:git config --global user.name "user_name"
+step 3:git config --global user.email "email_id"
+step 4:git init Mytest -->Initialized empty Git repository in /home/akshay/Mytest/.git/
+step 5:cd Mytest
+step 6:git add smaple.php --> to up files and git add -A status git status modify files and git add -U
+step 7:git commit -m "some_message"
+step 8:Create repository on github
+step 9:git remote add origin https://github.com/user_name/Mytest.git
+step 10:git push origin master
