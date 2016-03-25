@@ -89,3 +89,13 @@ step 7:git commit -m "some_message"
 step 8:Create repository on github
 step 9:git remote add origin https://github.com/user_name/Mytest.git
 step 10:git push origin master
+
+
+Clean temp files.
+
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt-get autoremove
+
+Bleachbit
+sudo apt-get install bleachbit
