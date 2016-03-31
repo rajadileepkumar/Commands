@@ -99,3 +99,26 @@ sudo apt-get autoremove
 
 Bleachbit
 sudo apt-get install bleachbit
+
+
+
+install skype
+
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update 
+sudo apt-get install skype
+
+
+install sublime
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+
+Package control
+
+view->show console->just past the code of packagecontrol.io version of sublime
+
+install package
+
+ctrl+shift+p->install package->select package
